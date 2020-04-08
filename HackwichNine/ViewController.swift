@@ -35,10 +35,11 @@ class ViewController: UIViewController {
             self.mylabel.text = "Index Two selected, Woohoo, this makes sense now"
         default:
             break
+           
+            self.mylabel.text = textField.text
             
         }
     
-        
     }
     
 }
