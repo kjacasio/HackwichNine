@@ -35,11 +35,14 @@ class ViewController: UIViewController {
             self.mylabel.text = "Index Two selected, Woohoo, this makes sense now"
         default:
             break
-           
-            self.mylabel.text = textField.text
             
         }
     
+    }
+    @IBAction func ButtonedPressed(_ sender: Any) {
+        
+        let userInputText = textField.text
+        self.mylabel.text = userInputText
     }
     
 }
