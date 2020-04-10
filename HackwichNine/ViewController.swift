@@ -29,21 +29,25 @@ class ViewController: UIViewController {
             {
         case 0:
             self.mylabel.text = "Index Zero selected on the Segmented Control"
+             let userInputText = textField.text
+            self.mylabel.text = userInputText
         case 1:
             self.mylabel.text = "Index One selected, I got this"
+            let userInputText = textField.text
+            self.mylabel.text = userInputText
         case 2:
             self.mylabel.text = "Index Two selected, Woohoo, this makes sense now"
+            let userInputText = textField.text
+            self.mylabel.text = userInputText
         default:
             break
             
         }
     
     }
-    @IBAction func ButtonedPressed(_ sender: Any) {
         
-        let userInputText = textField.text
-        self.mylabel.text = userInputText
+        
     }
     
-}
+
 
