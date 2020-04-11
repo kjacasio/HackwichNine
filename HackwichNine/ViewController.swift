@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.mylabel.text = " "
         segmentedControl.selectedSegmentIndex = -1
+        
     }
 
     @IBAction func segmentedControlPressed(_ sender: Any) {
@@ -29,7 +30,7 @@ class ViewController: UIViewController {
             {
         case 0:
             self.mylabel.text = "Index Zero selected on the Segmented Control"
-             let userInputText = textField.text
+            let userInputText = textField.text
             self.mylabel.text = userInputText
         case 1:
             self.mylabel.text = "Index One selected, I got this"
